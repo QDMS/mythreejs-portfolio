@@ -1,9 +1,9 @@
 <template>
     <div class="bg-black h-screen px-6 py-12">
-        <h2 class="text-white font-museo text-5xl opacity-0" ref="title" style="transform: translateY(30px);">MY WORK</h2>
+        <h2 class="text-white font-museo text-5xl opacity-0" ref="title" style="transform: translateY(30px);">Click any picture to Enter TismStudios</h2>
         <div class="flex space-x-4">
             <div ref="projects" v-for="project in projects" class="w-full opacity-0" style="transform: translateX(30px);">
-               <a href="https://github.com/QDMS">
+               <a href="https://tismstudios.netlify.app/">
                 <img :src="project.image.url" alt="4"
                 style="height: 80vh;" class="object-cover">
             
