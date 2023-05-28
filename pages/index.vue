@@ -32,7 +32,6 @@
           <div class="plate"></div>
           <div class="button__wrapper">
             <span class="button__text">View Work</span>
-            <span class="button__text">Service Store Coming Soon</span>
           </div>
           <div class="button__box">
             <div class="inner inner__top"></div>
