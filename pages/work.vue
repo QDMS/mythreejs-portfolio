@@ -1,6 +1,7 @@
 <template>
-    <div class="bg-black h-screen px-6 py-12">
-        <h2 class="text-white font-museo text-5xl opacity-0" ref="title" style="transform: translateY(30px);">Click any picture to Enter Qujuan Miller's Portfolio</h2>
+    <div class="bg-black f-screen px-6 py-12">
+        <a href="tismsss.netlify.app" class="text-white font-museo text-4xl opacity-0" ref="link" style="transform: translateY(30px); cursor: pointer; padding: 15px; border-radius: 25px; border: 2px solid; margin: 10px;">Click Here To Enter TismStudios Service</a>
+        <h2  class="text-white font-museo text-5xl opacity-0" ref="title" style="transform: translateY(30px); padding: 20px;">Click any picture to Enter Qujuan Miller's Portfolio</h2>
         <div class="flex space-x-4">
             <div ref="projects" v-for="project in projects" class="w-full opacity-0" style="transform: translateX(30px);">
                <a href="https://qujuanmiller-portfolio.netlify.app/">
@@ -61,6 +62,13 @@ export default {
     },
     mounted() {
         gsap.to(this.$refs.title, {
+            opacity:1,
+            duration: 1,
+            y: 0,
+            ease: 'expo'
+        })
+
+        gsap.to(this.$refs.link, {
             opacity:1,
             duration: 1,
             y: 0,
