@@ -508,6 +508,7 @@ h1 span:nth-child(13) {
 }
 .button__text{
     position : relative ;
+    flex-direction: column;
     display : flex ;
     justify-content : center ;
     align-items : center ;
